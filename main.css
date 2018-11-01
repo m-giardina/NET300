@@ -1,0 +1,57 @@
+
+/*Border-box reset*/
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/*Chat styling*/
+.container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.userSettings {
+    margin-bottom: 20px;
+}
+
+.chat {
+    max-width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.chat #chatOutput {
+    background-color: #000;
+    overflow-y: scroll;
+    height: 280px;
+    width: 100%;
+    font-family: "Lucida Console", Monaco, monospace;
+    color: #00ff00;
+    border: 1px solid #777;
+}
+
+.chat #chatOutput p {
+    margin: 0;
+    padding: 5px;
+    overflow: auto;
+    border-bottom: 1px solid #bbb;
+    word-break: break-all;
+}
+
+.chat #chatInput {
+    width: 75%;
+}
+
+.chat #chatSend {
+    width: 25%;
+}

@@ -1,0 +1,46 @@
+/* CSS Document */
+body {
+margin: 0;
+font-family: "Lucida-Console", Monaco, monospace;
+}
+.image .responsive {
+
+position: relative;
+width: 100%;
+height: auto;
+}
+
+h1 {
+position: absolute;
+padding:10px;
+top: 30px;
+left: 30px;
+width: 100%;
+color: #ddd;
+}
+
+.topnav a {
+float:left;
+text-align: center;
+padding: 14px 14px;
+display: inline-block;
+background: #ddd;
+color: #000;
+font-size:20px;
+width: 100%;
+}
+.topnav a:hover {
+background-color: #000;
+color: #ddd;
+}
+
+body h2 {
+padding-top: 15px;
+margin-left: 30px;
+
+}
+body p {
+margin-left: 30px;
+}
+
+
